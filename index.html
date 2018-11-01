@@ -42,13 +42,14 @@
     </section>
     
     <section id="TensorFlow">
+      
       <h2>What is TensorFlow?</h2>
-
+      
+      <img id="tensors" src="images/tensors_flowing.gif">
+      
       <p>TensorFlow™ is an open source software library for high-performance numerical computation. Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters of servers to mobile and edge devices. Originally developed by researchers and engineers from the Google Brain team within Google’s AI organization, it comes with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains.</p>
         
       <h2>What is Data Flow Graph:</h2>
-
-      <img id="tensors" src="images/tensors_flowing.gif">
       
       <p>The data flow graph uses a directed graph of "nodes" and "edges" to describe the mathematical calculations. A "node" is generally used to represent an applied mathematical operation but can also represent the start of the data input (feed-in) or the end of data output(push out), or the end of a read/write persistent variable. "Line" means the input/output relationship between "nodes". These data "lines" can transport a "size dynamically adjustable" multidimensional data array(tensor). The visual image that the tensor flows through the graph is the reason why this tool is named "Tensorflow." Once all the tensors at the input are ready, the nodes will be assigned to various computing devices to execute the calculation asynchronously in parallel.
 
