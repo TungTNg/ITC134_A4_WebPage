@@ -1,9 +1,12 @@
 body{
-    background-color: black;
+    backgground-color:#a9f1fa;
 }
 
 #titleRobotic {
     color: red;
+}
+img{
+    padding-left: 10px;
 }
 .wrapper{
     width:60%;
