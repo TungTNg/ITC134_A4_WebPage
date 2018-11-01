@@ -1,11 +1,11 @@
 body{
-    backgground-color:#a9f1fa;
+    background-color:#a9f1fa;
 }
 
 #titleRobotic {
     color: red;
 }
-img{
+#hand{
     padding-left: 10px;
 }
 .wrapper{
