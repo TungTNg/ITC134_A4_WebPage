@@ -15,6 +15,12 @@ body{
     width:40%;
     padding-left: 1%;  
 }
+#tensors{
+    float:left;
+    width:35%;
+    padding-left: 1%;  
+}
+
 P{
     text-align:justify;
 }
