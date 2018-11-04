@@ -18,7 +18,8 @@ body{
 #tensors{
     float:left;
     width:35%;
-    padding-left: 1%;  
+    padding-left: 1%; 
+    
 }
 
 P{
@@ -33,19 +34,22 @@ P{
 
 section{
     padding:2%;
-    width:100%;
+    width:96%;
+    overflow: hidden;
 }
 
 .nav{
        height:50px;
        line-height:50px;
-       background:linear-gradient(to right, #1c6dff, #0ef7ff);
+       background:linear-gradient(to right, #091136, #1c6dff);
 }
 .nav li{
          float:left;
-         width:100px;
+         width:15%;
          text-align:center;
          list-style: none;
+         font-size:1em;
+          
          
 }
 .nav a{
@@ -78,4 +82,8 @@ footer a{
 
 ul,li{
     margin:0; padding:0
+}
+
+#cp{
+    text-align: center;
 }
