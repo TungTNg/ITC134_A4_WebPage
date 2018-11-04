@@ -7,18 +7,18 @@ body{
 }
 #hand{
     float:right;
-    width:40%;
-    padding-left: 1%;  
+    width:25%;
+    padding:0 0 1% 1%;  
 }
 #alphaGo{
     float:left;
-    width:40%;
-    padding-left: 1%;  
+    width:30%;
+    padding:0 1% 0 0;  
 }
 #tensors{
     float:left;
     width:35%;
-    padding-left: 1%; 
+    padding:0 1% 0 0; 
     
 }
 
